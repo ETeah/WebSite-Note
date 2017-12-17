@@ -1,0 +1,38 @@
+
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+	A quote goes here.
+</blockquote>
+
+<link>
+-Defines a link between a document and an external resource
+
+
+...set responsive image
+<picture>
+
+<img src="img_orange_flowers.jpg" alt="Flowers" style="width:auto;">
+
+</picture>
+
+-Tables
+
+WORKING WITH BORDERS ATTRIBUTE
+	to collapse all border use the css
+
+	border-collapse: collapse;
+	border-spacing: 15px;  this seperates the boarders of a table.
+
+WORKING WITH COLUMNS 
+	to expland a column so it can just be wider, the more items you put under it, use
+	
+<th colspan="number of data it should stratch over."> 
+	name of this column header
+</th>
+
+
+<table>
+	<th>
+	<td>
+	</td>
+	</th>
+</table>

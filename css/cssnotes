@@ -1,0 +1,65 @@
+cssnotes HTMl5
+
+go to - to learn  more:
+https://www.w3schools.com/html/html_tables.asp
+
+-position: fix 
+(defines the mobility of the item within it's position)
+
+-padding: 5px 3px 5px 3px
+
+-float: left/right  (makes the words/boxes allign left or right)
+
+-border: top right bottom left
+border: 10px 14px 10px 14px
+
+-margin: 10px 10px 10px 10px
+or
+margin-top:
+margin-right:
+margin-bottom:
+margin-left:
+The CSS margin properties are used to create space around elements, outside of any defined borders..it pushes the item around the page.
+
+-padding works like margin would in a page, but padding only takes 
+place with in a border.
+padding: 10px 5px 12px 5px
+or
+padding-top
+padding-right
+padding-bottom
+padding-left
+The CSS padding properties are used to generate space around an element's content, inside of any defined borders.
+
+you can creat div and nav classes....they are just common class names that developers use to just predecing thier items in the body of the page.
+
+<section> - Defines a section in a document
+
+
+The <div> tag defines a division or a section in an HTML document.
+The <div> tag is used to group block-elements to format them with CSS.
+
+<div>
+<!-- this is a sections/self contain item on the page-->
+</div>
+
+<nav> - Defines a container for navigation links
+</nav>
+
+<footer> - Defines a footer for a document or a section
+
+
+------------------- Responsive Web Design--------------
+Responsive web are web that can scale to any size, and they respond to
+the user
+
+this is where you can use max-height, max-weidth, etc to set limits
+
+When making responsive web pages, add the following <meta> element in all your web pages:
+
+Example
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+---------------------HTML Entities-----------
+Are used to show reserve characters
+like &amp which just represents &, since we can't write it like
+that in html

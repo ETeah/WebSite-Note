@@ -1,0 +1,113 @@
+Block-Level Elements
+ -they start on the a new linke
+ -they expand from the left to right of that line
+IE:
+ <div>, <nav>, <article>, <address>, <footer>
+
+Span Element= Inline Element
+<span></span>
+ -this element can be use to style a part of a 
+ text, if use with CSS, it does not start on a 
+ new line. It is an inLine Element 
+
+ iframes 
+ -used to load another website in the current webite.
+
+ ie: 
+ <iframe src="web url" height="" width="">
+ </iframe>
+
+ By using Name attribute, you can reference
+ an ifram as a targe to display your site.
+ <iframe>	Defines an inline frame
+ie:
+  <iframe src="demo_iframe.htm" name="iframe_a"></iframe>
+   <p>
+   <a href="https://www.w3schools.com" target="iframe_a">W3Schools.com</a>
+   </p>
+   ------------------JAVA SCRIPT------------
+    JavaScript very often use the document.getElementById(id) method.
+
+    internel usage
+    <script>
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script>
+   you can also make an external file and reference it in the head of your page
+
+   -------------HTML Forms------------------------
+<form></form>
+
+   <form> 
+   -form elements
+   -forms element are input elements
+   <input></input>
+   -these input element allows user to inter acte with the form eighter by typing or clicking buttons.
+   </forms>
+   
+   input close is a self-closing element
+
+VALUE  TYPE  NAME
+
+   to submit a form you must include a name for that form. else it won't be sent
+
+   Value is a prefiller for a form element
+   like how a submit button will have a value="submit now";
+   <input type="submit" value="this is the text that will just be display on the button">
+
+   Type is an attribute that define the over function of the element.
+   <input type="text">
+   <input type="radio">  
+   -a circular button that allows you to pick from multiply chose type forms
+
+to submit you need to give it an action file
+<form action="/action_page.php">
+
+ie:
+   <form action="link to the file that will handle the form...usually php" target="where you want to load the result">
+
+SELECT ELEMENT
+ <select></select>
+-this gives a drop down list
+-the intems in that list will be the
+ <options></option> element 
+
+SELECT ELEMENT child Element
+<select name="cars">
+  <option value="volve"> Volvo </option>
+</select>
+
+
+SELECT ELEMENT size="" attribut
+
+-to specify how much options you want to show
+-use size="#ofelement you want to show" 
+as an attribute
+<select name="" size="3">
+ <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="fiat">Fiat</option>
+  <option value="audi">Audi</option>
+</select>
+
+
+SELECT ELEMENT multiple="" attribut
+this attribute allows user to pick multiple options
+
+Form ELEMENT child Element
+<textarea> 
+</textarea>
+
+-it give a space to write in
+-name has to be assign
+
+CREATING SPACE IN THE TEXT AREA
+-rows=""   show how many lines you want
+-cols=""   show how many character you want the person to be able to input when they type in the text area.
+-Css width="" and height="" value can also be use 
+to set the text input size and width for input.
+
+-Button element
+
+<button type="button" onclick="alert('Hello')">
+Click Here!
+</button>

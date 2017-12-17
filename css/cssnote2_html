@@ -1,0 +1,116 @@
+cssnote2
+
+CSS fonts
+  font-family: verdana;
+  font-size: 300%;  -text size
+
+--------------Positioning Elements-------
+Border:
+  border property defines a border around an HTML element.
+Margin:
+  margin property defines a margin (space) outside the border.
+Padding:
+  padding property defines a padding (space) between the text and the border.
+
+
+id
+   An Attribute that define a specific style for one special element
+   <p id="p01">I am different</p>
+
+  externally defined the id:
+
+   #p01
+   {
+    color: blue;
+   }
+
+Links:
+
+<a href="url">link text</a>
+<img src="url" alt="the image description" height="" width="">
+
+----- HighLighting Links with Css ------
+a 
+img
+
+HTML & CSS
+are attributes what can be costumized 
+using external css file
+
+LINKING TO WEBSITE- but to a specific page
+<a href="(url with out http://www...)" target="_blank"></a>
+
+
+LINKING TO AN ELEMENT ON YOUR PAGE-set a link using id and a attribute.
+
+
+<a href="(define the id: #Hi)" alt="">item that is link</a>
+
+<p id="Hi"> 
+this paragraph will be the website that
+the previous link will go to...basically, it will just scroll down. 
+</p>
+
+LINKING TO A FOULDER
+<a href="/html/default.asp">HTML tutorial</a>
+
+LINKING TO A FILE IN THE SAME FOULDER
+<a href="default.asp">HTML tutorial</a>
+
+ANIMATE A LINKS
+you can use [a:hover, a:active, a:link, a:visited]
+can be written as...
+
+a:active{
+   color: green
+   background-color: transparent; 
+   text-decoration: none or underline;
+}
+
+this describe reaching in the parent <li>
+and high (link) child element <a href=""></a>
+li a:hover {
+    background-color: #111111;
+}
+
+IMG
+
+-for regular img in another file
+ <img scr="/file/image.type(png,gif,orjpg)">
+
+----------------------------------------------
+-this makes an image that has places on it where you can click.
+
+ <img src="workplace.jpg" alt="Workplace" usemap="#workmap">
+
+<!--this is the map that set the places on the image where you can click-->
+
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  
+  <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+</map>
+-----------TYPES OF LISTS------------------
+list-style-type: disc/circle/square/none
+they help describe how the <li> item is presented:
+
+UNORGANIZED LIST
+<ul style="list-style-type:disc">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+ORGANIZED 
+ <ol>
+ </ol>
+ 
+DESCRIPTIVE LIST
+<dl>
+  <dt>Coffee</dt>
+  <dd>- black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>- white cold drink</dd>
+</dl>
+
